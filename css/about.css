@@ -20,8 +20,8 @@ h3 {
   display: none;
 }
 
-.intro {
-  background-image: url(/assets/images/about_background.png);
+.intro-main {
+  background-image: url(/assets/images/home_mobile.png);
   background-size: 100% 100%;
 }
 
