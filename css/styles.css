@@ -209,14 +209,18 @@ body * {
 
 .speakers {
   margin: 30px 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   list-style-type: none;
 }
 
 .speaker {
-  display: grid;
-  grid-template-columns: 30% 70%;
-  grid-gap: 5px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 450px;
+  margin: 20px 20px 0 0;
 }
 
 .speaker-image {
@@ -234,6 +238,11 @@ body * {
 
 .speaker-profile {
   margin-top: -20px;
+  margin-left: 20px;
+}
+
+.speaker-profile .intro {
+  padding: 0 0 10px;
 }
 
 .button-container {
@@ -314,6 +323,13 @@ body * {
     padding: 5px 10%;
   }
 
+  .logo {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+  }
+
   .top .top-item:not(:last-child) {
     margin: 0 10px;
   }
@@ -326,6 +342,10 @@ body * {
     text-decoration: none;
     color: #fff;
     font-size: 1.5rem;
+  }
+
+  .fa-bars {
+    display: none;
   }
 
   /* Navbar styles */
@@ -347,35 +367,25 @@ body * {
     font-size: 1.5rem;
   }
 
+  .navlist .nav-item:not(:last-child) {
+    margin-right: 10px;
+  }
+
   .navlist a {
     text-decoration: none;
     color: #272a31;
   }
 
-  .logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 100%;
-  }
-
   /* Main section styline */
-
-  .main * {
-    /* margin: 7% 10%; */
-  }
-
   .intro {
     color: #272a31;
-    margin: 7% 10%;
-  }
-
-  .main .intro {
-    width: 60%;
   }
 
   .hello {
     font-weight: normal;
     font-size: 3rem;
+    margin-top: 0;
+    padding-top: 200px;
     margin-bottom: 70px;
   }
 
@@ -386,20 +396,28 @@ body * {
 
   .create {
     font-size: 5rem;
-    line-height: 0.2;
+    margin-top: 5px;
     font-weight: 600;
     font-family: "COCOGOOSE", sans-serif;
-    margin-top: 50px;
   }
 
-  .intro .description {
+  .intro-main {
+    background-image: url(/assets/images/home_desktop.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0 10%;
+  }
+
+  .intro-main .description {
     border: solid white;
     background-color: #d3d3d3;
     width: 80%;
     padding: 30px;
+    color: #272a31;
     font-family: sans-serif;
     font-weight: 700;
-    margin-top: -20px;
+    margin-top: 20px;
   }
 
   .day-time {
@@ -424,6 +442,15 @@ body * {
 
   .main-program * {
     margin: 0 10%;
+  }
+
+  .partner-list {
+    margin: 20px 20%;
+  }
+
+  .partner-list .partner img {
+    width: 200px;
+    margin: 0 5px 10px;
   }
 
   .program-header {
@@ -451,6 +478,7 @@ body * {
   }
 
   .program-list li {
+    display: block;
     margin: 5px 3px;
     text-align: center;
     background: rgba(141, 134, 134, 0.3);
@@ -464,6 +492,7 @@ body * {
   }
 
   .whole-program {
+    display: block;
     width: 600px;
     margin: auto;
     padding: 40px 0 100px;
@@ -482,6 +511,7 @@ body * {
   }
 
   .program-list li .image {
+    display: block;
     opacity: 1;
   }
 
@@ -501,6 +531,24 @@ body * {
 
   /* Featured Program Section */
 
+  .speakers {
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .speaker {
+    display: flex;
+    max-width: 450px;
+    margin: 20px 20px 0 0;
+  }
+
+  .name {
+    margin-top: 30px;
+  }
+
   .featured-speakers {
     font-family: sans-serif;
     margin: 80px 0;
@@ -509,5 +557,19 @@ body * {
 
   .featured-speakers .heading {
     text-align: center;
+  }
+
+  .explanation {
+    display: block;
+    max-width: 600px;
+    margin-top: 20px;
+  }
+
+  .button-container {
+    display: none;
+  }
+
+  .rights {
+    margin: 0 10%;
   }
 }
