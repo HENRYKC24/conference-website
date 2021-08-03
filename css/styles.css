@@ -302,7 +302,7 @@ body * {
   display: none;
 }
 
-@media all and (min-width: 800px) {
+@media all and (min-width: 768px) {
   /* App top links styles */
 
   .top {
