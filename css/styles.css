@@ -23,7 +23,7 @@ body * {
 }
 
 .intro-main {
-  background-image: url(/assets/images/mobile_background_main.png);
+  background-image: url(/assets/images/about_mobile.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -402,7 +402,7 @@ body * {
   }
 
   .intro-main {
-    background-image: url(/assets/images/home_desktop.png);
+    background-image: url(/assets/images/about_desktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
