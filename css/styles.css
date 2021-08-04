@@ -26,8 +26,26 @@ body * {
   padding: 0 20px;
 }
 
+.program-list li {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 3px 3px;
+  background: rgba(141, 134, 134, 0.3);
+  padding: 10px;
+  border: solid rgba(0, 0, 0, 0);
+  font-size: 0.8rem;
+  width: 100%;
+}
+
 .show .navlist li {
   margin: 10px 0;
+}
+
+.whole-program a {
+  text-decoration: underline;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: #fff;
 }
 
 .show .navlist li a {
@@ -124,17 +142,6 @@ body * {
   padding: 0;
 }
 
-.program-list li {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  margin: 3px 3px;
-  background: rgba(141, 134, 134, 0.3);
-  padding: 10px;
-  border: solid rgba(0, 0, 0, 0);
-  font-size: 0.8rem;
-  width: 100%;
-}
-
 .program-list li:hover {
   border: solid #fff;
 }
@@ -160,13 +167,6 @@ body * {
 
 .images {
   width: 100px;
-}
-
-.whole-program a {
-  text-decoration: underline;
-  font-family: sans-serif;
-  font-size: 1.2rem;
-  color: #fff;
 }
 
 .program-list li .image {
