@@ -12,12 +12,34 @@ h3 {
   padding: 0;
 }
 
-.header,
 .location,
 .top,
+.logo,
 .navbar,
 .short-underline {
   display: none;
+}
+
+.show {
+  display: block;
+  margin: 0;
+  list-style-type: none;
+}
+
+.show .navlist {
+  list-style-type: none;
+  margin: -30px 0 0 0;
+  padding: 0 20px;
+}
+
+.show .navlist li {
+  margin: 10px 0;
+}
+
+.show .navlist li a {
+  text-decoration: none;
+  color: #272a31;
+  font-size: 1.5rem;
 }
 
 .intro-main {
@@ -25,7 +47,9 @@ h3 {
   background-size: 100% 100%;
 }
 
-.fa-bars {
+.fa-bars,
+.fa-times {
+  display: block;
   padding: 15px 0 50px 15px;
   font-size: 2rem;
 }
@@ -215,7 +239,7 @@ h3 {
   display: none;
 }
 
-.navlist .nav-item:first-child a {
+.navlist .nav-item:nth-child(2) a {
   color: #ec5242;
 }
 
@@ -288,6 +312,10 @@ h3 {
     padding: 0;
     width: 70%;
     font-size: 1.5rem;
+  }
+
+  .navbar .navlist .home {
+    display: none;
   }
 
   .navlist .nav-item:not(:last-child) {
