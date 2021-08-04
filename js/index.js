@@ -5,7 +5,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Kossi Fioklou',
@@ -13,7 +13,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Adedamola Shittu',
@@ -21,7 +21,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Lilian Moraa',
@@ -29,7 +29,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Ali Abbani',
@@ -37,7 +37,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Daniel Matongo',
@@ -45,7 +45,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Ifionu Juliana',
@@ -53,7 +53,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Yaseer Okino',
@@ -61,7 +61,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Ruben Dario',
@@ -69,7 +69,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Robert Baiesita',
@@ -77,7 +77,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Rachid Boudaoudi',
@@ -85,7 +85,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
   {
     name: 'Faizan Zahid',
@@ -93,7 +93,7 @@ const speakers = [
       'Brerkman Professor of Entrepreneurial Legal Studies at Harvard Law School',
     about:
       'Benkler studies commons-based peer productionk, and published his serminal book The Wealth of Networks in 2006',
-    avatarURL: '/assets/images/profile.jpg',
+    avatarURL: './assets/images/profile.jpg',
   },
 ];
 
@@ -112,7 +112,7 @@ const displaySpeakers = (speaker, index) => {
 
   const img1 = document.createElement('img');
   img1.setAttribute('class', 'grid');
-  img1.setAttribute('src', '/assets/images/grid2.png');
+  img1.setAttribute('src', './assets/images/grid2.png');
   img1.setAttribute('alt', `speaker ${index + 1} image design`);
   div1.appendChild(img1);
 
