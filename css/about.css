@@ -47,7 +47,7 @@ h3 {
 }
 
 .intro-main {
-  background-image: url(/assets/images/home_mobile.png);
+  background-image: url(../assets/images/home_mobile.png);
   background-size: 100% 100%;
 }
 
@@ -154,7 +154,7 @@ h3 {
 }
 
 .summit1 {
-  background-image: url(/assets/images/summit1.jpg);
+  background-image: url(../assets/images/summit1.jpg);
   background-size: 100% 100%;
   height: 150px;
   color: white;
@@ -165,7 +165,7 @@ h3 {
 }
 
 .summit2 {
-  background-image: url(/assets/images/summit2.jpg);
+  background-image: url(../assets/images/summit2.jpg);
   background-size: 100% 100%;
   height: 150px;
 }
@@ -330,7 +330,7 @@ h3 {
   /* Main section styline */
 
   .intro-main {
-    background-image: url(/assets/images/home_desktop.png);
+    background-image: url(../assets/images/home_desktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;

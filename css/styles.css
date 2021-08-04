@@ -61,7 +61,7 @@ body * {
 }
 
 .intro-main {
-  background-image: url(/assets/images/about_mobile.png);
+  background-image: url(../assets/images/about_mobile.png);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   width: 100%;
@@ -110,7 +110,7 @@ body * {
 }
 
 .main-program {
-  background-image: url(/assets/images/mobile_pattern.jpg);
+  background-image: url(../assets/images/mobile_pattern.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
   color: #fff;
@@ -460,7 +460,7 @@ body * {
   }
 
   .intro-main {
-    background-image: url(/assets/images/about_desktop.png);
+    background-image: url(../assets/images/about_desktop.png);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     width: 100%;
@@ -492,7 +492,7 @@ body * {
   }
 
   .main-program {
-    background-image: url(/assets/images/second_background.jpg);
+    background-image: url(../assets/images/second_background.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     color: #fff;
