@@ -251,16 +251,16 @@ body * {
   margin: auto;
 }
 
-.button-container .more {
-  cursor: pointer;
-}
-
 .more {
   width: 100%;
   background-color: white;
   border: 1px solid #d3d3d3;
   padding: 10px;
   color: #272a31;
+}
+
+.button-container .more {
+  cursor: pointer;
 }
 
 .button-container .fa-chevron-down,
@@ -362,7 +362,7 @@ body * {
     justify-content: space-between;
     align-items: center;
     background-color: white;
-    position: relative;;
+    position: relative;
     position: sticky;
     top: 0;
     box-shadow: 0 5px 10px #272a31;

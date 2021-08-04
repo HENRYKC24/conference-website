@@ -282,6 +282,12 @@ h3 {
     padding: 0;
     width: 70%;
     font-size: 1.5rem;
+    background-color: white;
+    position: relative;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 10px #272a31;
+    z-index: 10;
   }
 
   .navlist .nav-item:not(:last-child) {
@@ -347,20 +353,20 @@ h3 {
     display: flex;
   }
 
+  .navlist .nav-item a:hover {
+    color: #ec5242;
+  }
+
+  .location-items .location-item:first-child a {
+    text-decoration: none;
+    color: #545964;
+  }
+
   .navlist .nav-item:last-child {
     box-sizing: border-box;
     padding: 5px;
     margin-top: -5px;
     border: solid white;
-  }
-
-  .navbar {
-    background-color: white;
-    position: relative;;
-    position: sticky;
-    top: 0;
-    box-shadow: 0 5px 10px #272a31;
-    z-index: 10;
   }
 
   .navlist .nav-item:last-child:hover {
@@ -371,21 +377,12 @@ h3 {
     color: #ec5242;
   }
 
-  .navlist .nav-item a:hover {
-    color: #ec5242;
-  }
-
-  .location-items .location-item:first-child a {
-    text-decoration: none;
-    color: #545964;
-  }
-
   .location-items .location-item:not(:last-child) {
     margin-right: 20px;
   }
 
   .location-items .location-item:not(:last-child):not(:first-child) {
-    color: #ec5242;.footer-logo 
+    color: #ec5242;
   }
 
   .main .intro-main {
@@ -444,10 +441,8 @@ h3 {
   }
 
   .summits div {
-    /* opacity: 0.5; */
     width: 400px;
     height: 200px;
-    /* margin: 5px; */
     box-sizing: border-box;
   }
 
