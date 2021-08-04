@@ -285,6 +285,17 @@ h3 {
     padding: 5px 15%;
   }
 
+  .top a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .navlist a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
   .top li a {
     font-size: 1rem;
   }
@@ -302,12 +313,6 @@ h3 {
 
   .top .fa-twitter {
     margin-right: 20px;
-  }
-
-  .top a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
   }
 
   /* Navbar styles */
@@ -341,11 +346,6 @@ h3 {
 
   .navlist .nav-item:not(:last-child) {
     margin-right: 10px;
-  }
-
-  .navlist a {
-    text-decoration: none;
-    color: #272a31;
   }
 
   /* Main section styline */

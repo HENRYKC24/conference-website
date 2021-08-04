@@ -366,6 +366,24 @@ body * {
     padding: 5px 10%;
   }
 
+  .top a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  .navlist a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .whole-program a {
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+
   .top li a {
     font-size: 1.1rem;
   }
@@ -383,12 +401,6 @@ body * {
 
   .top .fa-twitter {
     margin-right: 20px;
-  }
-
-  .top a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
   }
 
   .fa-bars {
@@ -429,18 +441,6 @@ body * {
     padding: 5px;
     margin-top: -5px;
     border: solid white;
-  }
-
-  .navlist a {
-    text-decoration: none;
-    color: #272a31;
-  }
-
-  .whole-program a {
-    text-decoration: underline;
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    color: #fff;
   }
 
   .nav-item a:hover {
