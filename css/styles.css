@@ -3,6 +3,8 @@ html {
   padding: 0;
   margin: 0;
   color: #272a31;
+  font-family: sans-serif;
+  font-size: initial;
 }
 
 body * {
@@ -356,6 +358,10 @@ body * {
 @media all and (min-width: 768px) {
   /* App top links styles */
 
+  body {
+    font-family: sans-serif;
+  }
+
   .top {
     background-color: #272a31;
     margin: 0;
@@ -376,6 +382,7 @@ body * {
   .navlist a {
     text-decoration: none;
     color: #272a31;
+    font-family: sans-serif;
   }
 
   .whole-program a {
