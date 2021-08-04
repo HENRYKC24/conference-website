@@ -262,6 +262,12 @@ h3 {
   color: #ec5242;
 }
 
+@media all and (min-width: 780px) {
+  .navbar .nav-item a {
+    font-size: 1.3rem;
+  }
+}
+
 @media all and (min-width: 768px) {
   body {
     font-family: sans-serif;
@@ -341,7 +347,7 @@ h3 {
     margin: 0;
     padding: 0;
     width: 70%;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .navbar .navlist .home {
