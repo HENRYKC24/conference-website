@@ -8,10 +8,25 @@ body * {
   box-sizing: border-box;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
 .navbar,
 .top,
 .logo {
   display: none;
+}
+
+.expand {
+  position: absolute;
+  bottom: 0;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 10;
 }
 
 .show {

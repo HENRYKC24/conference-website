@@ -4,6 +4,21 @@ body {
   box-sizing: border-box;
 }
 
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+.expand {
+  position: absolute;
+  bottom: -60px;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 20;
+}
+
 p,
 h1,
 h2,
