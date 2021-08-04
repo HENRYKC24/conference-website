@@ -246,8 +246,9 @@ body * {
 }
 
 .button-container {
-  width: 100%;
+  max-width: 700px;
   padding: 0 10px;
+  margin: auto;
 }
 
 .more {
@@ -258,7 +259,8 @@ body * {
   color: #272a31;
 }
 
-.button-container .fa-chevron-down {
+.button-container .fa-chevron-down,
+.button-container .fa-chevron-up {
   color: #ec5242;
 }
 
@@ -371,10 +373,29 @@ body * {
     margin-right: 10px;
   }
 
+  .navlist .nav-item:last-child {
+    padding: 5px;
+    border: solid white;
+  }
+
   .navlist a {
     text-decoration: none;
     color: #272a31;
   }
+
+  .nav-item a:hover {
+    color: #ec5242;
+  }
+
+  .navlist .nav-item:last-child:hover {
+    border: solid #ec5242;
+  }
+
+  .navlist .nav-item:last-child:hover a {
+    color: #ec5242;
+  }
+
+  
 
   /* Main section styline */
   .intro {
@@ -532,7 +553,7 @@ body * {
   /* Featured Program Section */
 
   .speakers {
-    margin: 30px 0;
+    margin: 30px 14%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -563,10 +584,6 @@ body * {
     display: block;
     max-width: 600px;
     margin-top: 20px;
-  }
-
-  .button-container {
-    display: none;
   }
 
   .rights {
