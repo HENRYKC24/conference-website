@@ -215,6 +215,10 @@ h3 {
   display: none;
 }
 
+.navlist .nav-item:first-child a {
+  color: #ec5242;
+}
+
 @media all and (min-width: 768px) {
   body {
     font-family: sans-serif;
@@ -341,6 +345,39 @@ h3 {
   .location-items {
     list-style-type: none;
     display: flex;
+  }
+
+  .navlist .nav-item:last-child {
+    box-sizing: border-box;
+    padding: 5px;
+    margin-top: -5px;
+    border: solid white;
+  }
+
+  .navbar {
+    background-color: white;
+    position: relative;;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 10px #272a31;
+    z-index: 10;
+  }
+
+  .navlist .nav-item:last-child:hover {
+    border: solid #ec5242;
+  }
+
+  .navlist .nav-item:last-child:hover a {
+    color: #ec5242;
+  }
+
+  .navlist .nav-item a:hover {
+    color: #ec5242;
+  }
+
+  .location-items .location-item:first-child a {
+    text-decoration: none;
+    color: #545964;
   }
 
   .location-items .location-item:not(:last-child) {

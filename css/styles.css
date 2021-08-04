@@ -251,6 +251,10 @@ body * {
   margin: auto;
 }
 
+.button-container .more {
+  cursor: pointer;
+}
+
 .more {
   width: 100%;
   background-color: white;
@@ -305,7 +309,7 @@ body * {
 .rights {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   padding: 20px 10px;
 }
 
@@ -357,6 +361,12 @@ body * {
     padding: 20px 10%;
     justify-content: space-between;
     align-items: center;
+    background-color: white;
+    position: relative;;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 5px 10px #272a31;
+    z-index: 10;
   }
 
   .navbar .navlist {
@@ -374,13 +384,22 @@ body * {
   }
 
   .navlist .nav-item:last-child {
+    box-sizing: border-box;
     padding: 5px;
+    margin-top: -5px;
     border: solid white;
   }
 
   .navlist a {
     text-decoration: none;
     color: #272a31;
+  }
+
+  .whole-program a {
+    text-decoration: underline;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
   }
 
   .nav-item a:hover {
@@ -394,8 +413,6 @@ body * {
   .navlist .nav-item:last-child:hover a {
     color: #ec5242;
   }
-
-  
 
   /* Main section styline */
   .intro {
@@ -520,13 +537,6 @@ body * {
     text-align: center;
   }
 
-  .whole-program a {
-    text-decoration: underline;
-    font-family: sans-serif;
-    font-size: 1.2rem;
-    color: #fff;
-  }
-
   .join {
     display: none;
   }
@@ -584,6 +594,10 @@ body * {
     display: block;
     max-width: 600px;
     margin-top: 20px;
+  }
+
+  .right {
+    margin-left: 50px;
   }
 
   .rights {
