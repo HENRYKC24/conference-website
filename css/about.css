@@ -277,10 +277,16 @@ h3 {
   .top {
     background-color: #272a31;
     margin: 0;
+    height: 30px;
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    padding: 5px 10%;
+    align-items: center;
+    padding: 5px 15%;
+  }
+
+  .top li a {
+    font-size: 1rem;
   }
 
   .logo {
